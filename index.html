@@ -44,24 +44,33 @@
         <h1>Investigating fast flavor swap of neutrinos</h1>
         <p>
             This page shows the complete numerical simulation animation in the poster.
-            The toy-model used is a colliding neutrino-beam model, designed to simulate the underlying geometry.
+        </p> 
+        <p>
+            The toy-model used is a colliding neutrino-beam model, demonstrating the feature where neutrino beams are emitted from opposite boundaries and pass through each other.
+        </p>
+
+        <p>
+            
+        If you have any doubts or comments, please contact [b10204005@ntu.edu.tw].
         </p>
 
         <hr>
 
         <h2>Only advection</h2>
+        <h3>(Here we can not see any oscillation)</h3>
         <video controls>
-            <source src="ffs_advection_alpha_1.0.mp4" type="video/mp4">
+            <source src="advection.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <hr>
 
         <h2>\( Nvz = 2  \), with different \( \alpha \)</h2>
+        <h3>(Please focus on the transition layer)</h3>
         
-        <h3>1. \( \alpha = 1.0 \)</h3>
+        <h3>1. \( \alpha = 1.0 \) (symmetric case)</h3>
         <video controls>
-            <source src="alpha1_vz2.mp4" type="video/mp4">
+            <source src="alpha_1.0_vz2.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
@@ -92,53 +101,54 @@
         <hr>
 
         <h2>\( \alpha = 1.0 \), with different \( Nvz\)  (Multiple beams)</h2>
+        <h3>(Please focus on the onset time of FFS)</h3>
+
         <h3>1. \( Nvz = 8\)</h3>
         <video controls>
-            <source src="alpha1_vz8.mp4" type="video/mp4">
+            <source src="alpha_1.0_vz8.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <h3>2. \( Nvz = 16\)</h3>
         <video controls>
-            <source src="alpha1_vz16.mp4" type="video/mp4">
+            <source src="alpha_1.0_vz16.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <h3>3. \( Nvz = 32\)</h3>
         <video controls>
-            <source src="alpha1_vz32.mp4" type="video/mp4">
+            <source src="alpha_1.0_vz32.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <hr>
 
-        <h2>trigger by vacuum (mixing angle \(\theta = 10^{-6} \))</h2>
+        <h2>Triggered by vacuum oscillation (mixing angle \(\theta = 10^{-6} \))</h2>
+        <h3>(Triggered by vacuum oscillation, FFS also happen! )</h3>
+
         <h3>1. \( \alpha = 1.0 \), \( Nvz = 2\)</h3>
         <video controls>
-            <source src="trigger_by_vacuum.mp4" type="video/mp4">
+            <source src="vaccum_col_alpha1.0_vz2.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <h3>2. \( \alpha = 1.0 \), \( Nvz = 16\) </h3>
         <video controls>
-            <source src="trigger_by_vacuum.mp4" type="video/mp4">
+            <source src="vaccum_col_alpha1.0_vz16.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <hr>
 
         <h2>Future Work!</h2>
-        <h3>strange case1</h3>
+        <h3>Consider only right-going baems with time-dependent \( \alpha\)</h3>
+        <h3>FFC seems happens in some interval, then cease to exist.</h3>
+        <h3>(More details should be checked) </h3>
         <video controls>
-            <source src="strange_case1.mp4" type="video/mp4">
+            <source src="ffs_test_G.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
-        <h3>strange case2</h3>
-        <video controls>
-            <source src="strange_case2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
     </div>
 </body>
 </html>
